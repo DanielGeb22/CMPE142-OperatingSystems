@@ -4,9 +4,10 @@ Experimenting with Linux kernel modules
 
 ## Table of Contents
 
-- [FileCopy.c](#FileCopy.c) — Copy contents from source file to destination file
-- [simple.c](#simple.c) — Loads kernel module, does some tasks, then removes the module
-- [jiffies_module.c & seconds_module.c](#jiffies_module.c-&-seconds_module.c) — Design of two kernel modules: one that uses kernel /proc file system to store the current value of "jiffies" and print it out to user space, and the second one uses kernel /proc file system to report the number of elapsed seconds since the kernel module was loaded
+- [FileCopy.c](#filecopyc) — Copy contents from source file to destination file
+- [simple.c](#simplec) — Loads kernel module, does some tasks, then removes the module
+- [jiffies_module.c & seconds_module.c](#jiffies_modulec--seconds_modulec) — Design of two kernel modules: one that uses kernel /proc file system to store the current value of "jiffies" and print it out to user space, and the second one uses kernel /proc file system to report the number of elapsed seconds since the kernel module was loaded
+- [References](#references)
 
 ## FileCopy.c
 
@@ -44,4 +45,4 @@ The log is shown below:
 
 ## References
 
-- programming-project-#1.pdf
+- [programming project #1.pdf](programming-project-1.pdf)
